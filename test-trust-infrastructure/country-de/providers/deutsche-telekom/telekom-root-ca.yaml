@@ -1,0 +1,8 @@
+serviceNames:
+  - language: en
+    value: "Deutsche Telekom Root Certificate Authority"
+  - language: de
+    value: "Deutsche Telekom Wurzelzertifikatsautorität"
+serviceType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+status: "https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/"
+statusStartingTime: "2024-01-01T00:00:00Z"

@@ -1,0 +1,20 @@
+names:
+  - language: en
+    value: "Deutsche Telekom Trust Center"
+  - language: de
+    value: "Deutsche Telekom Vertrauenszentrum"
+address:
+  postal:
+    streetAddress: "Friedrich-Ebert-Allee 140"
+    locality: "Bonn"
+    postalCode: "53113"
+    countryName: "DE"
+  electronic:
+    - "https://www.telekom.de/trust-center"
+    - "mailto:trust@telekom.de"
+tradeName:
+  - language: en
+    value: "Deutsche Telekom AG"
+informationURI:
+  - language: en
+    value: "https://www.telekom.de/trust-center/certificates"

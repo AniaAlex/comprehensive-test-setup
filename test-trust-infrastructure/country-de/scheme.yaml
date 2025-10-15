@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "German National Trust List Operator"
+  - language: de
+    value: "Deutscher Nationaler Vertrauenslistenoperator"
+type: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"
+sequenceNumber: 1
+schemeTerritory: "DE"
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+historicalInformationPeriod: 65535

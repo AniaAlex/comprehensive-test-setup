@@ -1,0 +1,3 @@
+# This directory is intentionally empty
+# A LOTL (List of Trusted Lists) contains pointers to other TSLs, not direct certificate providers
+# The actual trust service providers are in the referenced national TSLs

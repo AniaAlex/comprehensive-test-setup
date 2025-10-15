@@ -1,0 +1,37 @@
+# Comprehensive Test LOTL Pipeline
+# This creates a complete test trust infrastructure with:
+# - A main LOTL (List of Trusted Lists)
+# - Multiple national TSLs (Sweden, Germany)
+# - TSL pointers and cross-references
+# - HTML transformation for visualization
+
+# Step 1: Generate LOTL (main list with pointers)
+- generate: ["./test-trust-infrastructure/lotl"]
+
+# Step 2: Generate Swedish national TSL
+- generate: ["./test-trust-infrastructure/country-se"]
+
+# Step 3: Generate German national TSL
+- generate: ["./test-trust-infrastructure/country-de"]
+
+# Step 4: Extract all certificates into unified pool
+- select: []
+
+# Step 5: Export all TSLs to XML files
+- publish: ["./test-output"]
+
+# Step 6: Transform TSLs to HTML for visualization
+# - transform:
+#     - "embedded:tsl-to-html.xslt"
+#     - "./test-output"
+#     - "html"
+
+# Step 7: Generate index page for all TSLs
+# - generate_index:
+#     - "./test-output"
+#     - "Test Trust Infrastructure - LOTL & National TSLs"
+
+# Step 8: Log comprehensive results
+- log:
+    - "Complete test LOTL infrastructure generated successfully"
+    - "count=auto"

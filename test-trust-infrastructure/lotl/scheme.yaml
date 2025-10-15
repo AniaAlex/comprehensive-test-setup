@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "Test European List of Trusted Lists Operator"
+  - language: sv
+    value: "Test Europeiska Listan över Betrodda Listor Operatör"
+type: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists"
+sequenceNumber: 1
+schemeTerritory: "EU"
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+historicalInformationPeriod: 65535

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList>
+  <List TSLTag="">
+    <SchemeInformation>
+      <TSLVersionIdentifier>1</TSLVersionIdentifier>
+      <TSLSequenceNumber>0</TSLSequenceNumber>
+      <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
+      <SchemeOperatorName>
+        <Name lang="en">Test European List of Trusted Lists Operator</Name>
+        <Name lang="sv">Test Europeiska Listan över Betrodda Listor Operatör</Name>
+      </SchemeOperatorName>
+      <StatusDeterminationApproach></StatusDeterminationApproach>
+      <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+      <ListIssueDateTime></ListIssueDateTime>
+    </SchemeInformation>
+    <TrustServiceProviderList></TrustServiceProviderList>
+  </List>
+</TrustServiceStatusList>

@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "Swedish National Trust List Operator"
+  - language: sv
+    value: "Svensk Nationell Tillitslistoperatör"
+type: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"
+sequenceNumber: 1
+schemeTerritory: "SE"
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+historicalInformationPeriod: 65535

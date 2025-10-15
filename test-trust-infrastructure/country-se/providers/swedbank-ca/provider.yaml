@@ -1,0 +1,20 @@
+names:
+  - language: en
+    value: "Swedbank Certificate Authority"
+  - language: sv
+    value: "Swedbank Certifikatutfärdare"
+address:
+  postal:
+    streetAddress: "Landsvägen 40"
+    locality: "Sundbyberg"
+    postalCode: "17263"
+    countryName: "SE"
+  electronic:
+    - "https://www.swedbank.se"
+    - "mailto:cert-support@swedbank.se"
+tradeName:
+  - language: en
+    value: "Swedbank AB"
+informationURI:
+  - language: en
+    value: "https://www.swedbank.se/certificates"

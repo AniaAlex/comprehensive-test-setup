@@ -1,0 +1,21 @@
+{
+    "subject": {
+        "type": "x509_certificate",
+        "id": "swedbank-root-ca-test",
+        "properties": {
+            "x5c": [
+                "MIID8TCCAtmgAwIBAgIURYv4lbWPC2kNWbD/hm4TOJzc1RcwDQYJKoZIhvcNAQELBQAwgYcxCzAJBgNVBAYTAlNFMRIwEAYDVQQIDAlTdG9ja2hvbG0xEzARBgNVBAcMClN1bmRieWJlcmcxFDASBgNVBAoMC1N3ZWRiYW5rIEFCMR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEFN3ZWRiYW5rIFJvb3QgQ0EwHhcNMjUxMDE1MDkzMDExWhcNMjYxMDE1MDkzMDExWjCBhzELMAkGA1UEBhMCU0UxEjAQBgNVBAgMCVN0b2NraG9sbTETMBEGA1UEBwwKU3VuZGJ5YmVyZzEUMBIGA1UECgwLU3dlZGJhbmsgQUIxHjAcBgNVBAsMFUNlcnRpZmljYXRlIEF1dGhvcml0eTEZMBcGA1UEAwwQU3dlZGJhbmsgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMl2+X0EcSZnOUGJ04gazUViBZ5ta7XPpvisp6Ng/hcUx95oIsRak9W+9ozx1v2IERY/0BbLb0DQTbu04ovvALQMm1aqvtAIIhFweXJmrn+dlQgtxWXOPqDkVHIGYrYQj/tAYlv/i3sBstraswNi0Gb+oHMOXg0zR5domiXCF9Tq6FXPNFuqsG0sk3/Heacp/JUUYfMxJmtb+rdZjnzVnFvKE+GhL4GlYiLRy+6Zm25yxiJHBI3yAnl9T4x+4xOtY7Mcn1lu5oerJ8K9BXFoaOe8DjEoIFVyIZ5BTHoLWTVWcSJOUP6hSav9FUvOlinJBG74coJsDWNp6JCiK3TyT6kCAwEAAaNTMFEwHQYDVR0OBBYEFInVNmEHzAWxFHlrpJKSL7L55qxdMB8GA1UdIwQYMBaAFInVNmEHzAWxFHlrpJKSL7L55qxdMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAERYXVUifqfH8aBUBgbHh86kqv8EAvBN5c418lw+9BzAV0Zh43LQGj5lKlaeqpqfPJ4imM5XiiSq4GR6ihI0qfT6/4JxlLQg0TUwe5oJyHl9rexoW9Htpy2A542mR7NZrKXeCfEWlh9sjGoaIYKrdBY454S24G+20rEwroUl9fPtEYPHqFjC/MalhXKJpPdxORf8CRkDCHSXucZp4paMz6txK1zKVjRrFbfiyW7W6QRbCTy2sezVCGKQhMxmB5g/HrvxcddQJdfe6l/xZBWOd16Tj1KzeZFEc9MQ82OG9GsYZ5DJFHUCyaojlFPSF7UopHj/znMj9mFNUYPtMHcop1E="
+            ]
+        }
+    },
+    "resource": {
+        "type": "service",
+        "id": "test-service-456",
+        "properties": {}
+    },
+    "action": {
+        "name": "trust",
+        "properties": {}
+    },
+    "context": {}
+}
