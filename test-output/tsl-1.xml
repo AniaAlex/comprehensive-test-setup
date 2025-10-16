@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TrustServiceStatusList>
-  <List TSLTag="">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BE-TL-071" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
       <TSLVersionIdentifier>1</TSLVersionIdentifier>
       <TSLSequenceNumber>0</TSLSequenceNumber>
@@ -57,5 +56,4 @@
         </TSPServices>
       </TrustServiceProvider>
     </TrustServiceProviderList>
-  </List>
 </TrustServiceStatusList>
