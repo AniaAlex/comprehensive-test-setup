@@ -49,7 +49,7 @@
                   <X509SKI></X509SKI>
                 </DigitalId>
               </ServiceDigitalIdentity>
-              <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
               <StatusStartingTime></StatusStartingTime>
             </ServiceInformation>
           </TSPService>
