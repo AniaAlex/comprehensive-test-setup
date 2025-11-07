@@ -139,3 +139,18 @@ Potential enhancements for this test infrastructure:
 3. **Signature Verification**: Implement and test the verify pipeline step for signature validation
 4. **Performance Testing**: Add benchmark tests for large-scale TSL processing
 5. **Network Testing**: Add tests for HTTP/HTTPS TSL fetching scenarios
+
+````
+docker run -d \
+  --name go-trust-server \
+  -p 6001:6001 \
+  --mount type=bind,source="/Users/annaalexeeva/Documents/sunet-projects/comprehensive-test/basic-list.yaml",target=/pipeline.yaml,readonly \
+  --mount type=bind,source="$(pwd)/output",target=/data/output \
+  go-trust:latest --host 0.0.0.0 --port 6001 /pipeline.yaml
+  ```
+
+
+
+````
+curl -sS -X POST -H "Content-Type: application/json" --data-binary @test-trusted-authzen.json http://127.0.0.1:6001/evaluation
+```
